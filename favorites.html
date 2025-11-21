@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Favorites </title>
+<style>
+
+body{
+background-image: url("Gacha.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin: 0;
+scrollbar: hidden;
+}
+
+#navbar {
+background: -webkit-linear-gradient(left, rgba(238, 245, 39, 1), rgba(166, 245, 39, 1), rgba(39, 245, 127, 1));
+padding: 10px;
+position: sticky;
+text-align: right;
+opacity: 0.80;
+z-index: 2;
+}
+
+#navbar img.hover {
+float: right;
+}
+
+#navbar img{
+width: 45px;
+height: 50px;
+mix-blend-mode: lighten;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.box1 {
+background: -webkit-linear-gradient(left, rgba(245, 140, 39, 1), rgba(238, 245, 39, 1), rgba(166, 245, 39, 1), rgba(39, 245, 127, 1));
+height: 150px;
+width: 95%;
+aspect-ratio: 1/1;
+border-radius: 20px;
+position: relative;
+align-items: center;
+display:flex;
+margin: 30px;
+transition: all 0.3 ease;
+overflow: hidden;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+opacity: 0.90;
+}
+
+.box1 h1{
+text-align: center;
+color: white;
+font-family: "helvetica neue", helvetica, sans-serif;
+text-shadow: 3px 3px 3px rgba(0, 38, 5, 0.8), -3px -3px 3px rgba(0, 38, 5, 0.8);
+top:0;
+left:0;
+margin: 30px;
+text-decoration: underline;
+}
+
+.box1:hover {
+transform: scale(1.02);
+overflow: hidden;
+background-image: url("Minecraft.jpg");
+background-repeat: no-repeat;
+background-position: Center;
+background-size: cover;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+transition: all 0.3 ease;
+}
+
+
+
+.box2 {
+background: -webkit-linear-gradient(left, rgba(245, 140, 39, 1), rgba(238, 245, 39, 1), rgba(166, 245, 39, 1), rgba(39, 245, 127, 1));
+height: 150px;
+width: 95%;
+aspect-ratio: 1/1;
+border-radius: 20px;
+position: relative;
+align-items: center;
+display:flex;
+margin: 30px;
+transition: all 0.3 ease;
+overflow: hidden;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+opacity: 0.90;
+}
+
+
+.box2 h1{
+text-align: center;
+color: white;
+font-family: "helvetica neue", helvetica, sans-serif;
+text-shadow: 3px 3px 3px rgba(88, 45, 0, 0.8), -3px -3px 3px rgba(88, 45, 0, 0.8);
+top:0;
+left:0;
+margin: 30px;
+text-decoration: underline;
+}
+
+.box2:hover {
+transform: scale(1.02);
+overflow: hidden;
+background-image: url("mahp.jpg");
+background-repeat: no-repeat;
+background-position: Center;
+background-size: cover;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+transition: all 0.3 ease;
+}
+
+.box3 {
+background: -webkit-linear-gradient(left, rgba(245, 140, 39, 1), rgba(238, 245, 39, 1), rgba(166, 245, 39, 1), rgba(39, 245, 127, 1));
+height: 150px;
+width: 95%;
+aspect-ratio: 1/1;
+border-radius: 20px;
+position: relative;
+align-items: center;
+display:flex;
+margin: 30px;
+transition: all 0.3 ease;
+overflow: hidden;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+opacity: 0.90;
+}
+
+
+.box3 h1{
+text-align: center;
+color: white;
+font-family: "helvetica neue", helvetica, sans-serif;
+text-shadow: 3px 3px 3px rgba(56, 1, 75, 0.8), -3px -3px 3px rgba(56, 1, 75, 0.8);
+top:0;
+left:0;
+margin: 30px;
+text-decoration: underline;
+}
+
+.box3:hover {
+transform: scale(1.02);
+overflow: hidden;
+background-image: url("GBG.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+transition: all 0.3 ease;
+}
+
+.box4 {
+background: -webkit-linear-gradient(left, rgba(245, 140, 39, 1), rgba(238, 245, 39, 1), rgba(166, 245, 39, 1), rgba(39, 245, 127, 1));
+height: 150px;
+width: 95%;
+aspect-ratio: 1/1;
+border-radius: 20px;
+position: relative;
+align-items: center;
+display:flex;
+margin: 30px;
+transition: all 0.3 ease;
+overflow: hidden;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+opacity: 0.90;
+}
+
+
+.box4 h1{
+text-align: center;
+color: white;
+font-family: "helvetica neue", helvetica, sans-serif;
+text-shadow: 3px 3px 3px rgba(1, 22, 75, 0.8), -3px -3px 3px rgba(1, 22, 75, 0.8);
+top:0;
+left:0;
+margin: 30px;
+text-decoration: underline;
+}
+
+.box4:hover {
+transform: scale(1.02);
+overflow: hidden;
+background-image: url("IB.jpg");
+background-repeat: no-repeat;
+background-position: down;
+background-size: cover;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+transition: all 0.3 ease;s
+}
+
+.box5 {
+background: -webkit-linear-gradient(left, rgba(245, 140, 39, 1), rgba(238, 245, 39, 1), rgba(166, 245, 39, 1), rgba(39, 245, 127, 1));
+height: 150px;
+width: 95%;
+aspect-ratio: 1/1;
+border-radius: 20px;
+position: relative;
+align-items: center;
+display:flex;
+margin: 30px;
+transition: all 0.3 ease;
+overflow: hidden;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+opacity: 0.90;
+}
+
+
+.box5 h1{
+text-align: center;
+color: white;
+font-family: "helvetica neue", helvetica, sans-serif;
+text-shadow: 3px 3px 3px rgba(0, 88, 104, 0.8), -3px -3px 3px rgba(0, 88, 104, 0.8);
+top:0;
+left:0;
+margin: 30px;
+text-decoration: underline;
+}
+
+.box5:hover {
+transform: scale(1.02);
+overflow: hidden;
+background-image: url("SG2.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+transition-property: transform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 0s;
+transition: all 0.3 ease;s
+}
+
+</style>
+</head>
+<body>
+
+<div id="navbar">
+<a href="index.html" target="_blank"> <img src="Transparent image.png"> </a>
+<a href="About me.html" target="_blank"> <img src="Transparent me.png"></a>
+<a href="playlist.html" target="_blank"> <img src="Transparent Playlist.png"></a>
+<a href="Gallery.html" target="_blank"> <img src="Transparent Gallery.png" alt="Gallery"></a>
+<a href="Videos.html" target="_blank"> <img src="Transparent vid.png" alt="Videos"></a>
+</div>
+
+
+<div class="box1">
+<a href="https://www.minecraft.net/en-us/download" target="_blank"><h1> MINECRAFT </h1></a>
+</div>
+
+<div class="box2">
+<a href="https://www.harrypottermagicawakened.com/global/" target="_blank"><h1> HARRY POTTER:MAGIC AWAKENED </h1></a>
+</div>
+
+<div class="box3">
+<a href="https://lunime.itch.io/gachalife2" target="_blank"><h1> GACHA LIFE 2 </h1></a>
+</div>
+
+<div class="box4">
+<a href="https://apps.microsoft.com/detail/9pfdf2zd4z4n?hl=en-us&gl=us" target="_blank"><h1> IBIS PAINT </h1></a>
+</div>
+
+<div class="box5">
+<a href="https://www.imdb.com/list/ls066662290/" target="_blank"><h1> STUDIO GHIBLI </h1></a>
+</div>
+
+
+</body>
+</html>
