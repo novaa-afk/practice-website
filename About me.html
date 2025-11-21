@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About Me</title>
+<style>
+
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins';
+}
+
+.container {
+position: relative;
+width: 100%;
+height: 100hv;
+color: rgba(0, 0, 0, 0.4);
+align-items: center;
+display: flex;
+justify-content: center;
+overflow: auto;
+}
+
+.container-two-boxes {
+width: 100%;
+height: 100hv;
+color: rgba(0, 0, 0, 0.4);
+align-items: center;
+justify-content: center;
+display: flex;
+gap: 100px;
+margin: 40px 0;
+flex-wrap: nowrap;
+}
+
+
+.background-clip {
+position: fixed;
+left: 0;
+bottom: 0;
+z-index:-1;
+object-fit: cover;
+}
+
+@media (min-aspect-ratio:16/9) {
+.background-clip {
+width:100%;
+height:100%;
+}
+}
+
+@media (max-aspect-ratio:16/9) {
+.background-clip {
+width:auto;
+height:100%;
+}
+}
+
+#navbar {
+background-color: #9C6EFF;
+padding: 10px;
+position: sticky;
+text-align: right;
+opacity: 0.75;
+z-index: 2;
+}
+
+#navbar img.hover {
+float: right;
+}
+
+#navbar img{
+width: 45px;
+height: 50px;
+mix-blend-mode: lighten;
+margin-left: 10px;
+cursor: pointer;
+}
+
+details {
+cursor: pointer;
+}
+
+.box1 {
+background: rgba(14, 2, 26, 0.83);
+height: 200px;
+width: 45%;
+aspect-ratio: 1/1;
+border-radius: 20px;
+position: relative;
+align-items: center;
+display: flex;
+margin: 30px;
+transition: all 0.3 ease;
+overflow: hidden;
+box-shadow: 3px 3px 3px #9C6EFF, -3px -3px 3px rgba(249, 73, 255, 0.8);
+justify content: center;
+}
+
+
+.box1 h2 {
+text-align: left;
+color: rgba(14, 2, 26, 0.83);
+font-family: "Florence", Cursive;
+text-shadow: 3px 3px 3px rgba(108, 161, 255, 1), -3px -3px 3px rgba(242, 84, 142, 0.8);
+margin: 65px;
+bottom: 0;
+}
+
+span{
+color: rgba(255, 131, 177, 1);
+font-family: "Times new roman", times, serif;
+text-align: center;
+font-size: 80%;
+}
+
+.box2 {
+background: rgba(14, 2, 26, 0.83);
+height: 340px;
+width: 25%;
+aspect-ratio: 1/1;
+border-radius: 20px;
+position: relative;
+align-items: center;
+display: flex;
+margin: 30px;
+transition: all 0.3 ease;
+overflow: hidden;
+box-shadow: 3px 3px 3px #9C6EFF, -3px -3px 3px rgba(249, 73, 255, 0.8);
+justify content: center;
+}
+
+
+.sep {
+justify-content: center;
+align-items: center;
+color: white;
+text-align: left;
+margin: 55px;
+}
+
+.sep h1 {
+top: 0;
+font-size: 30px;
+text-align: center;
+text-style: italic;
+text-shadow: 3px 3px 3px rgba(189, 73, 255, 0.8), -3px -3px 3px rgba(249, 73, 255, 0.8);
+}
+
+.sep ul {
+bottom: 0;
+font-family: "Times new roman", times, serif;
+font-size: 185%;
+}
+
+p{
+font-family:"Times new roman", times, serif;
+font-size: 190%;
+bottom: 0;
+text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="navbar">
+<a href="index.html" target="_blank"> <img src="Transparent image.png" alt="Home"> </a>
+<a href="playlist.html" target="_blank"> <img src="Transparent Playlist.png"></a>
+<a href="favorites.html" target="_blank"> <img src="Transparent fav.png" alt="Favorites"></a>
+<a href="Gallery.html" target="_blank"> <img src="Transparent Gallery.png" alt="Gallery"></a>
+<a href="Videos.html" target="_blank"> <img src="Transparent vid.png" alt="Videos"></a>
+</div>
+
+<div class="container">
+<video autoplay loop muted playsinline class="background-clip">
+<source src="anime.mp4" type="video/mp4">
+</video>
+</div>
+
+
+<hr width="80px" align="right" border color="#FD6BFF" /> <hr width="80px" align="left" border color="#9C6EFF" />
+
+<div class="container">
+<div class="box1">
+<h2><span>Name: </span> Aquisha Reese L. Villaflor <br /> <span> Age: </span> 15-16 years old </h2>
+</div>
+</div>
+
+<hr width="80px" align="right" border color="#9C6EFF" /> <hr width="80px" align="left" border color="#FD6BFF" />
+
+<div class="container-two-boxes">
+<div class="box2">
+<div class="sep">
+
+<h1> {*~Extras~*} </h1>
+
+<hr border color="#FD6BFF" />
+
+<ul>
+<li>Capricorn</li>
+<li>Year of the Ox</li>
+<li>ISTJ-T</li>
+<li>Gryffindor</li>
+<li><span>Birthstone: </span> Blue Zircon </li>
+</u>
+
+</div>
+</div>
+
+<div class="box2">
+<div class="sep">
+
+<h1> {*~Qoute~*} </h1>
+
+<hr border color="#9C6EFF" />
+
+<p> "Don't be held down by <span style="color:#FD6BFF; font-style:italic; font-size:90%;"> Restrictions</span>, and dont get too lost in <span style="color:#9C6EFF; font-style:italic; font-size:90%; ">Freedom </span>." </p>
+
+</div>
+</div>
+</div>
+
+<hr width="80px" align="right" border color="#FD6BFF" /> <hr width="80px" align="left" border color="#9C6EFF" />
+</body>
+</html>
