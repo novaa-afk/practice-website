@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+<title>Gallery</title>
+<style>
+
+body {
+background: -webkit-linear-gradient(left, #DB80FF, #FF80E1, #FF80A4, #FF8080);
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+#navbar {
+background: -webkit-linear-gradient(left, rgba(255, 243, 153, 1), rgba(255, 153, 171, 1), rgba(219, 171, 255, 1));
+padding: 10px;
+position: sticky;
+text-align: right;
+opacity: 0.80;
+z-index: 2;
+border-style: solid;
+border-color: white;
+}
+
+#navbar img.hover {
+float: right;
+}
+
+#navbar img{
+width: 45px;
+height: 50px;
+mix-blend-mode: lighten;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.container{
+width: 50%;
+height: 50%;
+border-radius: 50px;
+margin: 30px;
+display: flex;
+gap: 20%;
+}
+
+.container img{
+width: 50%;
+height: 50%;
+border-radius: 50px;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-wrap: nowrap;
+margin: 30px 0;
+transition-property: transform;
+transition-duration: 1s;
+transition-timing-function: ease;
+transition-delay: 0;
+box-shadow: 3px 3px 3px 4px rgba(142, 0, 46, 1);
+border-style: solid;
+border-color: white;
+}
+
+.container img:hover{
+transform: scale(1.02);
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="navbar">
+<a href="index.html" target="_blank"> <img src="Transparent image.png"> </a>
+<a href="About me.html" target="_blank"> <img src="Transparent me.png"></a>
+<a href="playlist.html" target="_blank"> <img src="Transparent Playlist.png"></a>
+<a href="favorites.html" target="_blank"> <img src="Transparent Fav.png" alt="Favorites"></a>
+<a href="Videos.html" target="_blank"> <img src="Transparent vid.png" alt="Videos"></a>
+</div>
+
+<div class="container">
+<img src="hpma.jpg" alt="_blank">
+
+<img src="cale.jpg" alt="_blank">
+
+<img src="art.jpg" alt="_blank">
+</div>
+
+<div class="container">
+<img src="cosplay.jpg" alt="_blank">
+
+<img src="hydrangea.jpg" alt="_blank">
+
+<img src="building.jpg" alt="_blank">
+</div>
+
+</body>
+</html>
